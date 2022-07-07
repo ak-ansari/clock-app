@@ -60,7 +60,7 @@
   transform-origin: bottom;
   transition: ease all;
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .hands {
     background-image: url("./clock.png");
     background-size: cover;

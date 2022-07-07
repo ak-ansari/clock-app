@@ -30,7 +30,7 @@ h1{
  #AM-PM{
      color: rgb(226, 22, 131);
  }
- @media(max-width:320px){
+ @media(max-width:425px){
     #container{
     
     width : 100vw;
