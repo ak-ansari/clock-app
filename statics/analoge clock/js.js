@@ -15,9 +15,6 @@ setInterval(() => {
   let secondsRotate;
 
   hoursRotate = 30 * hours + minuts / 2;
-  console.log(hours);
-  console.log(minuts);
-  console.log(seconds);
   minutesRotate = 6 * minuts;
   secondsRotate = 6 * seconds;
 
