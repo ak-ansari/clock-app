@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+#container{
+    
+    width : 60vw;
+    height : 30vh;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    
+   
+    }
+ #hours, #minuts, #seconds, #AM-PM{
+     padding: 0px;
+     display: inline-block;
+     margin: 10px;
+     height: auto;
+     width: auto;
+     text-align: center;
+     font-size: 6rem;
+     
+ }
+ #hours{
+     color: blue;
+ }
+ #seconds{
+     color: red;
+ }
+ #AM-PM{
+     color: rgb(226, 22, 131);
+ }
+ @media(max-width:320px){
+    #container{
+    
+    width : 100vw;
+    height : 50vh;
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+   
+    }
+ #hours, #minuts, #seconds, #AM-PM{
+     padding: 0px;
+     display: inline-block;
+     margin: 10px;
+     height: auto;
+     width: auto;
+     text-align: center;
+     font-size: 2.5rem;
+     
+ }
+ #hours{
+     color: blue;
+ }
+ #seconds{
+     color: red;
+ }
+ #AM-PM{
+     color: rgb(226, 22, 131);
+ }
+
+ }
